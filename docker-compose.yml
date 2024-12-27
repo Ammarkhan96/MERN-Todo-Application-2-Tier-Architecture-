@@ -13,7 +13,7 @@ services:
     networks:
       - mern_network
     environment:
-      - VITE_REACT_APP_API_URL=http://backend:5050/api/todos
+      - VITE_REACT_APP_API_URL=http://backend:5051/api/todos
 
 networks:
   mern_network:
